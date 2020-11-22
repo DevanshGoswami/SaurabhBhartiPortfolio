@@ -6,9 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Miniport by HTML5 UP</title>
+		<title>Saurabh Bharti</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="icon" href="./images/Logo.png" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -32,9 +35,9 @@
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Hi. I'm <strong>Jane Doe</strong>.</h1>
+								<h1>Hi. I'm <strong><span class="element"></strong></span></h1>
 							</header>
-							<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
+							<p>Currently working as <strong>“Lead Consultant”</strong> with Coextrix Technologies Pvt Ltd.</p>
 							<a href="#work" class="button large scrolly">Learn about what I do</a>
 						</div>
 					</div>
@@ -196,19 +199,36 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Saurabh Bharti. All rights reserved.</li><li>Design: <a href="http://devanshgoswami.tech">Devansh Goswami</a></li>
 						</ul>
 					</footer>
 				</div>
 			</article>
 
 		<!-- Scripts -->
+		
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>
+			  AOS.init();
+			</script>
+			  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+			<script>
+			  
+			var options = {
+				strings: ['Saurabh Bharti.','a Consultant.','a Business Analyst.'],
+				typeSpeed: 100,
+				loop: true,
+				loopCount: Infinity
+				};
+			var typed = new Typed('.element', options);
+			</script>
+			
 
 	</body>
 </html>
